@@ -28,4 +28,8 @@ console.log(newarray)
 
 // ======================================================
 
-
+arr=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"]
+arr.shift();
+arr.splice(1,1,"ola")
+arr.push("amazon")
+console.log(arr);
