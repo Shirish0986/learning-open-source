@@ -8,5 +8,19 @@ function n(n) {
         console.log("not")
     }
 }
-n(3)    
-// =============================================
+n(3)
+
+console.log("q2 :")
+// ==============q2===============================
+// Qs2. Write a code which can give grades to students according to their scores:
+
+let score=50
+if (score > 90) {
+    console.log("A")
+}
+if (score <= 80 && score >= 60) {
+    console.log("B")
+}
+if (score < 60) {
+    console.log("c")
+}
